@@ -7,6 +7,7 @@ The goal is to address data scarcity and class imbalance in cybersecurity datase
 
 Synthetic data is evaluated using statistical tests and its impact on classification performance using a Random Forest model.
 
+### Key Features
 - Implementation of WGAN-GP for stable synthetic data generation
 - Handles class imbalance in IoT-23 dataset
 - Feature engineering and preprocessing pipeline
@@ -17,6 +18,8 @@ Synthetic data is evaluated using statistical tests and its impact on classifica
 - Performance evaluation using Random Forest classifier
 - GUI dashboard for automated evaluation and visualization
 
+
+## Tech Stack
 - Python
 - PyTorch
 - Scikit-learn
@@ -25,6 +28,8 @@ Synthetic data is evaluated using statistical tests and its impact on classifica
 - XGBoost (feature importance)
 - Streamlit UI dashboard
 
+
+## Dataset
 - Dataset: IoT-23 (Stratosphere Lab)
 - Contains both benign and malicious IoT network traffic
 - Includes attack types such as:
@@ -33,7 +38,7 @@ Synthetic data is evaluated using statistical tests and its impact on classifica
   - Okiru Botnet
   - Port Scanning
 
-
+## Methodology
  1. Data Preprocessing
    - One-hot encoding
    - Feature engineering (IAT, connection rate, unique ports)
@@ -53,7 +58,7 @@ Synthetic data is evaluated using statistical tests and its impact on classifica
    - Model performance using Random Forest
   
 
-
+## Results
 - Synthetic data closely matched real data distributions
 - Improved detection of minority classes:
   - Okiru Recall: 0.23 → 0.83
@@ -66,7 +71,7 @@ Synthetic data is evaluated using statistical tests and its impact on classifica
 - Confusion Matrix
 - Performance Comparison Charts
 
-
+## GUI Dashboard
 A dashboard was developed to:
 - Upload datasets and models
 - Automate evaluation process
