@@ -1,6 +1,4 @@
-# WGAN-GP for Synthetic Network Traffic Generation (IoT-23)
-WGAN-GP model for generating synthetic IoT-23 network traffic to improve IDS performance and solve class imbalance in cybersecurity datasets.
-
+# WGAN-GP for Synthetic Network Traffic Generation
 This project implements a Wasserstein Generative Adversarial Network with Gradient Penalty (WGAN-GP) to generate high-quality synthetic network traffic using the IoT-23 dataset.
 
 The goal is to address data scarcity and class imbalance in cybersecurity datasets, improving the performance of Intrusion Detection Systems (IDS).
@@ -64,12 +62,6 @@ Synthetic data is evaluated using statistical tests and its impact on classifica
   - Okiru Recall: 0.23 → 0.83
 - Macro Recall improved from 0.84 → 0.93
 - Demonstrated effectiveness of GAN-based data augmentation for IDS
-
-
-(Add screenshots here if possible)
-- Correlation Matrix (Real vs Synthetic)
-- Confusion Matrix
-- Performance Comparison Charts
 
 ## GUI Dashboard
 A dashboard was developed to:
